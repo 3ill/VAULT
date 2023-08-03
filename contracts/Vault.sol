@@ -17,6 +17,7 @@ contract Vault {
         uint256 indexed _amount
     );
     event accountFrozen(address indexed _client);
+    event accountActivated(address indexed _client);
     event coinWithdrawn(address indexed _client, uint256 indexed _amount);
 
     //! Enums & Structs
@@ -169,6 +170,18 @@ contract Vault {
         );
         accounts[_address].status = AccountStatus.Frozen;
         emit accountFrozen(_address);
+    }
+
+    function unFreezeAccount(
+        address _address
+    ) external onlyOwner addressCompliance(_address) {
+        require(
+            accounts[_address].status == AccountStatus.Frozen,
+            "Account is not frozen"
+        );
+
+        accounts[_address].status = AccountStatus.Active;
+        emit accountActivated(_address);
     }
 
     //? This function returns an array of all accounts created
