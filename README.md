@@ -41,7 +41,8 @@ npx hardhat run --network goerli scripts/deploy.js
 
 ### Contract Address ⤵
 
-```cli
+```goerli
+goerli: 0x049Ced198d9Aa24fA940477917e4E868115Aa198
 
 ```
 
