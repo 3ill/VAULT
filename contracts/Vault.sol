@@ -213,7 +213,7 @@ contract Vault {
      * ? This function withdraws a specified amount from an account
      * @param _amount the amount to be withdrawn from an account
      */
-    function withdraw(uint256 _amount) public notFrozern(msg.sender) {
+    function withdraw(uint256 _amount) public payable notFrozern(msg.sender) {
         address client = msg.sender;
         require(_amount > 0, "invalid amount");
         require(accounts[client].balance >= _amount, "Insufficient balance");
