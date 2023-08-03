@@ -219,7 +219,6 @@ contract Vault {
         require(accounts[client].balance >= _amount, "Insufficient balance");
 
         accounts[client].balance -= _amount;
-        payable(client).transfer(_amount);
 
         emit coinWithdrawn(client, _amount);
     }
