@@ -1,4 +1,4 @@
-<p align="center"><a href="/" target="_blank"><img src="" width="500"></a></p>
+<p align="center"><a href="/" target="_blank"><img src="https://github.com/3ill/VAULT/blob/main/assets/vault.png" width="500"></a></p>
 
 <h1 align="center">Welcome to Vault 👋</h1>
 
