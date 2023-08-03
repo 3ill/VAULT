@@ -2,7 +2,7 @@
 
 <h1 align="center">Welcome to Vault 👋</h1>
 
-<p align="center">Vault serves as a **decentralized banking platform**, providing users with a seamless and secure way to establish and oversee their accounts while facilitating convenient asset transfers and withdrawals. With its robust infrastructure, Vault empowers individuals to exercise full control over their financial endeavors in a decentralized ecosystem. Users can effortlessly **create and manage accounts**, **conduct hassle-free asset transfers**, and **effectuate withdrawals with utmost ease**, ensuring a streamlined and empowering banking experience.</p>
+<p align="center">Vault serves as a decentralized banking platform, providing users with a seamless and secure way to establish and oversee their accounts while facilitating convenient asset transfers and withdrawals. With its robust infrastructure, Vault empowers individuals to exercise full control over their financial endeavors in a decentralized ecosystem. Users can effortlessly create and manage accounts, conduct hassle-free asset transfers, and effectuate withdrawals with utmost ease, ensuring a streamlined and empowering banking experience.</p>
 
 ## Dependencies 🛠
 
